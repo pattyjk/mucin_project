@@ -1,0 +1,167 @@
+"SampleID","Experiment","Treatment","Mucin","depth","Observed","Shannon"
+"P20A1","CarbonTemp","Galactose","No",7732,27,1.71372951734107
+"P20A10","CarbonTemp","N-acetylneuraminic acid","No",1764,47,2.02055746079001
+"P20A11","CarbonTemp","Glucose","No",5407,35,1.51267306256586
+"P20A12","CarbonTemp","VitaminMix","No",7519,18,0.638723207092
+"P20A2","CarbonTemp","Glycerol","No",7399,43,1.62155370380096
+"P20A3","CarbonTemp","N-acetyl glucosamine","No",6036,28,1.63640325283739
+"P20A4","CarbonTemp","Mannitol","No",6422,41,2.05699033044088
+"P20A5","CarbonTemp","Methanol","No",6194,40,1.30752194965416
+"P20A6","CarbonTemp","Mucin","Yes",6555,51,2.46037735579397
+"P20A7","CarbonTemp","Fucose","No",4816,31,1.08563236868362
+"P20A8","CarbonTemp","Tryptone","No",7591,38,1.47790999156585
+"P20A9","CarbonTemp","YE","No",5636,42,1.89101356341995
+"P20B1","CarbonTemp","Galactose","No",6636,25,1.72032640903988
+"P20B10","CarbonTemp","N-acetylneuraminic acid","No",3328,36,1.44322322831861
+"P20B11","CarbonTemp","Glucose","No",3581,45,1.55638527804065
+"P20B12","CarbonTemp","VitaminMix","No",6603,37,0.943746286497599
+"P20B2","CarbonTemp","Glycerol","No",5204,30,1.5640885115397
+"P20B3","CarbonTemp","N-acetyl glucosamine","No",6678,22,1.76793428577842
+"P20B4","CarbonTemp","Mannitol","No",6001,30,1.62629370152872
+"P20B5","CarbonTemp","Methanol","No",6428,50,1.78161158043261
+"P20B6","CarbonTemp","Mucin","Yes",6438,42,2.3408042265753
+"P20B7","CarbonTemp","Fucose","No",5518,25,1.46773685740717
+"P20B8","CarbonTemp","Tryptone","No",7822,37,1.29226283588767
+"P20B9","CarbonTemp","YE","No",6250,36,1.87454028836363
+"P20C1","CarbonTemp","Galactose","No",4258,24,1.83978280991186
+"P20C10","CarbonTemp","N-acetylneuraminic acid","No",3114,44,1.38046824485782
+"P20C11","CarbonTemp","Glucose","No",5329,40,1.7861001212924
+"P20C12","CarbonTemp","VitaminMix","No",4380,35,0.532150595160009
+"P20C2","CarbonTemp","Glycerol","No",7562,34,1.67599942785116
+"P20C3","CarbonTemp","N-acetyl glucosamine","No",7543,20,1.51809623525958
+"P20C4","CarbonTemp","Mannitol","No",6666,39,1.93944883000347
+"P20C5","CarbonTemp","Methanol","No",4801,22,0.895971821895726
+"P20C6","CarbonTemp","Mucin","Yes",9250,32,2.26655667965855
+"P20C7","CarbonTemp","Fucose","No",5596,33,1.52008949341969
+"P20C8","CarbonTemp","Tryptone","No",5864,30,1.45135855500851
+"P20C9","CarbonTemp","YE","No",6383,37,1.62969287831558
+"P20D1","CarbonTemp","Galactose","No",6041,47,2.18953439119748
+"P20D10","CarbonTemp","N-acetylneuraminic acid","No",3907,37,0.909713983496248
+"P20D11","CarbonTemp","Glucose","No",1694,17,1.58812559232887
+"P20D12","CarbonTemp","VitaminMix","No",7726,25,0.682136244568467
+"P20D2","CarbonTemp","Glycerol","No",10146,73,2.35391677718028
+"P20D3","CarbonTemp","N-acetyl glucosamine","No",7381,33,1.66595733835193
+"P20D4","CarbonTemp","Mannitol","No",8658,32,1.74756653541853
+"P20D5","CarbonTemp","Methanol","No",9897,21,1.49109108033254
+"P20D6","CarbonTemp","Mucin","Yes",7110,37,2.25622456385083
+"P20D7","CarbonTemp","Fucose","No",10460,66,2.67023711588713
+"P20D8","CarbonTemp","Tryptone","No",9299,45,1.21642285654268
+"P20D9","CarbonTemp","YE","No",4317,41,1.89606188737541
+"P20E1","CarbonTemp","Galactose","Yes",6585,41,2.42820490833982
+"P20E10","CarbonTemp","N-acetylneuraminic acid","Yes",4757,36,2.22383467617958
+"P20E11","CarbonTemp","Glucose","Yes",7062,36,1.89352822230315
+"P20E12","CarbonTemp","VitaminMix","Yes",2111,77,3.29768407093548
+"P20E2","CarbonTemp","Glycerol","Yes",6200,40,1.6980908950878
+"P20E3","CarbonTemp","N-acetyl glucosamine","Yes",7695,46,2.22136371925452
+"P20E4","CarbonTemp","Mannitol","Yes",7661,50,2.31815344691511
+"P20E5","CarbonTemp","Methanol","Yes",6182,47,2.25433761443443
+"P20E6","CarbonTemp","Mucin","Yes",8140,48,2.25711194510763
+"P20E7","CarbonTemp","Fucose","Yes",7407,32,2.0363486045703
+"P20E8","CarbonTemp","Tryptone","Yes",6230,41,1.81736162651528
+"P20E9","CarbonTemp","YE","Yes",6235,43,2.37884033328583
+"P20F1","CarbonTemp","Galactose","Yes",6076,42,2.2158708924891
+"P20F10","CarbonTemp","N-acetylneuraminic acid","Yes",4292,52,2.51288826139394
+"P20F11","CarbonTemp","Glucose","Yes",2732,55,2.60637479620172
+"P20F12","CarbonTemp","VitaminMix","Yes",2007,67,3.18361018894468
+"P20F2","CarbonTemp","Glycerol","Yes",4638,35,2.32042995761602
+"P20F3","CarbonTemp","N-acetyl glucosamine","Yes",7466,37,2.1101651916211
+"P20F4","CarbonTemp","Mannitol","Yes",7671,24,1.9335912829968
+"P20F5","CarbonTemp","Methanol","Yes",7042,43,2.29112956397926
+"P20F6","CarbonTemp","Mucin","Yes",7575,41,2.31265322454463
+"P20F7","CarbonTemp","Fucose","Yes",3516,53,2.45582877909406
+"P20F8","CarbonTemp","Tryptone","Yes",4776,39,2.33920875985624
+"P20F9","CarbonTemp","YE","Yes",4880,48,2.38452281385113
+"P20G1","CarbonTemp","Galactose","Yes",8079,54,2.47114728195779
+"P20G10","CarbonTemp","N-acetylneuraminic acid","Yes",7016,44,2.39171768043269
+"P20G11","CarbonTemp","Glucose","Yes",6925,41,2.58721473673264
+"P20G12","CarbonTemp","VitaminMix","Yes",2068,105,3.84300454116103
+"P20G2","CarbonTemp","Glycerol","Yes",7477,37,1.33775418972482
+"P20G3","CarbonTemp","N-acetyl glucosamine","Yes",6398,34,2.42514310794367
+"P20G4","CarbonTemp","Mannitol","Yes",7498,26,1.93465465875297
+"P20G5","CarbonTemp","Methanol","Yes",6741,25,2.07549291054643
+"P20G6","CarbonTemp","Mucin","Yes",8553,47,2.39733518033804
+"P20G7","CarbonTemp","Fucose","Yes",6540,39,2.05688596349054
+"P20G8","CarbonTemp","Tryptone","Yes",7947,36,2.1490711780697
+"P20G9","CarbonTemp","YE","Yes",4727,29,2.0841474403605
+"P20H1","CarbonTemp","Galactose","Yes",6409,50,2.31903125642226
+"P20H10","CarbonTemp","N-acetylneuraminic acid","Yes",7484,39,2.52621557193869
+"P20H11","CarbonTemp","Glucose","Yes",4784,41,2.34820535723838
+"P20H2","CarbonTemp","Glycerol","Yes",7445,17,1.62555529743947
+"P20H3","CarbonTemp","N-acetyl glucosamine","Yes",7791,28,2.22741111270684
+"P20H4","CarbonTemp","Mannitol","Yes",11325,35,2.07024894579423
+"P20H5","CarbonTemp","Methanol","Yes",9467,58,2.58026238334726
+"P20H6","CarbonTemp","Mucin","Yes",7812,30,2.28247526162304
+"P20H7","CarbonTemp","Fucose","Yes",8196,53,2.60024198293572
+"P20H8","CarbonTemp","Tryptone","Yes",6078,37,1.90285110343987
+"P20H9","CarbonTemp","YE","Yes",8100,40,2.01782696420234
+"PABD2","Antibiotics","Gentamycin","No",2376,26,2.28949878580856
+"PABA1","Antibiotics","PSN","No",2543,45,3.14246630519677
+"PABA4","Antibiotics","Ampicillin","No",2648,40,2.82362394325318
+"PABG2","Antibiotics","Gentamycin","Yes",2320,39,2.79502517038036
+"PABB1","Antibiotics","PSN","No",2690,41,2.11507328086832
+"PABC1","Antibiotics","PSN","No",2989,48,2.12042120785631
+"PABF4","Antibiotics","Ampicillin","Yes",1645,28,1.95701440412502
+"PABF3","Antibiotics","Chloramphenicol","Yes",2343,30,2.28608285935563
+"PABC8","Antibiotics","Trimethoprim","No",6632,30,1.29319092445928
+"PABC2","Antibiotics","Gentamycin","No",6918,24,1.55985612306065
+"PABB2","Antibiotics","Gentamycin","No",10138,17,0.610270133474464
+"PABD1","Antibiotics","PSN","No",5933,19,0.634167562405432
+"PABC3","Antibiotics","Chloramphenicol","No",6400,26,0.579495707480659
+"PABB6","Antibiotics","Streptomycin","No",8262,27,1.9076189931856
+"PABB5","Antibiotics","Neomycin","No",9077,17,1.12155803373006
+"PABA6","Antibiotics","Streptomycin","No",4605,30,1.88221969810553
+"PABD5","Antibiotics","Neomycin","No",7840,24,2.1760827820312
+"PABB8","Antibiotics","Trimethoprim","No",7174,18,1.68524105531737
+"PABA5","Antibiotics","Neomycin","No",4363,24,1.65427005486117
+"PABC5","Antibiotics","Neomycin","No",7163,16,1.70054159341799
+"PABA3","Antibiotics","Chloramphenicol","No",6079,25,2.15834717682974
+"PABC6","Antibiotics","Streptomycin","No",9545,24,1.94463167335121
+"PABH2","Antibiotics","Gentamycin","Yes",9437,29,2.0527545281549
+"PABD7","Antibiotics","Sulfamethazine","No",11646,30,1.86659753626053
+"PABA8","Antibiotics","Trimethoprim","No",7700,21,1.79766788215685
+"PABB7","Antibiotics","Sulfamethazine","No",6370,23,1.5873449104123
+"PABE2","Antibiotics","Gentamycin","Yes",9612,10,1.28122090360549
+"PABC4","Antibiotics","Ampicillin","No",11163,22,1.25709598052038
+"PABF2","Antibiotics","Gentamycin","Yes",1332,26,2.19384450742358
+"PABH4","Antibiotics","Ampicillin","Yes",9184,22,1.55509848343234
+"PABB4","Antibiotics","Ampicillin","No",8873,30,1.7755318990365
+"PABA7","Antibiotics","Sulfamethazine","No",8333,27,2.2256570481156
+"PABG1","Antibiotics","PSN","Yes",1591,27,2.37140609275342
+"PABC7","Antibiotics","Sulfamethazine","No",4860,22,1.92499373307723
+"PABA2","Antibiotics","Gentamycin","No",4921,28,1.59211135984772
+"PABG8","Antibiotics","Trimethoprim","Yes",9194,21,1.44354258600474
+"PABH3","Antibiotics","Chloramphenicol","Yes",10726,24,1.31538769710182
+"PABD6","Antibiotics","Streptomycin","No",12708,27,0.952472920017974
+"PABE1","Antibiotics","PSN","Yes",6825,20,1.9916770434755
+"PABD8","Antibiotics","Trimethoprim","No",10454,22,1.88009155053559
+"PABF1","Antibiotics","PSN","Yes",2812,206,3.99924453349625
+"PABB3","Antibiotics","Chloramphenicol","No",1811,281,4.57960328932135
+"PABH8","Antibiotics","Trimethoprim","Yes",2764,150,4.18604091712626
+"PABH1","Antibiotics","PSN","Yes",1012,177,4.18029093298573
+"PABC9","Antibiotics","NoAB","No",2230,250,4.33456401165943
+"PABH6","Antibiotics","Streptomycin","Yes",2638,241,4.20032293659818
+"PABE4","Antibiotics","Ampicillin","Yes",2684,266,4.73509955621592
+"PABF8","Antibiotics","Trimethoprim","Yes",2679,203,3.88196972001934
+"PABG5","Antibiotics","Neomycin","Yes",2402,264,5.08852858106572
+"PABE6","Antibiotics","Streptomycin","Yes",1213,205,4.63767380199188
+"PABA9","Antibiotics","NoAB","No",1921,294,5.17403455820247
+"PABG3","Antibiotics","Chloramphenicol","Yes",2291,372,5.51687915528252
+"PABE3","Antibiotics","Chloramphenicol","Yes",1313,254,5.13041693038677
+"PABD9","Antibiotics","NoAB","No",3097,249,4.73893663078667
+"PABG6","Antibiotics","Streptomycin","Yes",1446,251,4.79767943465597
+"PABB9","Antibiotics","NoAB","No",1784,258,5.09932595030941
+"PABD3","Antibiotics","Chloramphenicol","No",2556,273,5.22487889968056
+"PABE5","Antibiotics","Neomycin","Yes",1525,278,5.13844653413147
+"PABG4","Antibiotics","Ampicillin","Yes",1618,259,4.80328227827494
+"PABH5","Antibiotics","Neomycin","Yes",1669,244,4.3813572958039
+"PABF5","Antibiotics","Neomycin","Yes",1315,187,4.25760779276865
+"PABG7","Antibiotics","Sulfamethazine","Yes",2037,245,4.67358547179674
+"PABF7","Antibiotics","Sulfamethazine","Yes",1708,196,4.57523897315064
+"PABE7","Antibiotics","Sulfamethazine","Yes",1898,266,5.16856219623053
+"PABF6","Antibiotics","Streptomycin","Yes",1783,161,3.72131993456808
+"PABH7","Antibiotics","Sulfamethazine","Yes",1892,210,4.74656573533447
+"PABH9","Antibiotics","NoAB","Yes",1432,193,4.03929636542992
+"PABE9","Antibiotics","NoAB","Yes",1746,170,4.0740534006267
+"PABE8","Antibiotics","Trimethoprim","Yes",1194,167,4.11061817305849
+"PABG9","Antibiotics","NoAB","Yes",1404,132,4.00788687044093
+"PABF9","Antibiotics","NoAB","Yes",2199,135,4.01239574837312

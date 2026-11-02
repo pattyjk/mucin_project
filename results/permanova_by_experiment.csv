@@ -1,0 +1,13 @@
+"Experiment","distance","term","R2","F","p"
+"Antibiotics","bray","Mucin",0.0550707871307236,4.4374709061211,1e-04
+"Antibiotics","bray","Treatment",0.13829498236901,1.39293442290079,0.0043
+"Antibiotics","bray","Mucin:Treatment",0.148883052030074,1.4995795552861,7e-04
+"Antibiotics","jaccard","Mucin",0.0609547070705935,4.86865996271544,1e-04
+"Antibiotics","jaccard","Treatment",0.136324921566585,1.36109194730212,0.008
+"Antibiotics","jaccard","Mucin:Treatment",0.139170339222227,1.38950109665867,0.0041
+"CarbonTemp","bray","Mucin",0.0938038575232708,24.2733619472945,1e-04
+"CarbonTemp","bray","Treatment",0.434615700110147,11.2464289585674,1e-04
+"CarbonTemp","bray","Mucin:Treatment",0.220389414430207,5.70295525905168,1e-04
+"CarbonTemp","jaccard","Mucin",0.0396235055126233,4.19652161620646,1e-04
+"CarbonTemp","jaccard","Treatment",0.22807166508203,2.41550478731879,1e-04
+"CarbonTemp","jaccard","Mucin:Treatment",0.118575628446597,1.25583332795449,7e-04

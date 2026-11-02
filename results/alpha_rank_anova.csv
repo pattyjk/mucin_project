@@ -1,0 +1,13 @@
+"Experiment","metric","term","F","p"
+"Antibiotics","Observed","Mucin",17.938349876518,9.12809399899102e-05
+"Antibiotics","Observed","Treatment",3.29471516314597,0.00399716785101563
+"Antibiotics","Observed","Mucin:Treatment",3.51096814039143,0.00252432069803785
+"Antibiotics","Shannon","Mucin",25.4631561303089,5.64472743777086e-06
+"Antibiotics","Shannon","Treatment",3.07758849187353,0.00636085327265722
+"Antibiotics","Shannon","Mucin:Treatment",2.77100660014329,0.0123029101725481
+"CarbonTemp","Observed","Mucin",9.93569014913033,0.00245237145762214
+"CarbonTemp","Observed","Treatment",0.98004681833229,0.469416033695147
+"CarbonTemp","Observed","Mucin:Treatment",1.85629737421062,0.0680222099742215
+"CarbonTemp","Shannon","Mucin",126.670597101878,6.56321465447991e-17
+"CarbonTemp","Shannon","Treatment",1.57799643866071,0.133224456782522
+"CarbonTemp","Shannon","Mucin:Treatment",4.29035854351051,0.000132030947035484
