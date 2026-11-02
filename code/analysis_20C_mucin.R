@@ -15,9 +15,10 @@ md <- sm %>% filter(Temp==20, Experiment %in% c("CarbonTemp","Antibiotics"), is.
 A <- read.delim(f_asv,row.names=1,check.names=FALSE); A <- A[,!grepl("^Unnamed",colnames(A)),drop=FALSE]
 tx <- read.delim(f_tax,row.names=1)
 X <- A[,md$SampleID]; X <- X[rowSums(X)>0,]
-## ---- 2. Taxonomic filter (decontamination was done upstream)
+## ---- 2. Taxonomic filter (decontamination was done upstream; archaea retained)
 tax <- tx[rownames(X),"Taxon"]
-bad <- is.na(tax)|grepl("Chloroplast|Mitochondria|Eukaryota|Unassigned|Archaea",tax)|!grepl("d__Bacteria",tax)
+# Archaea are kept (current 515F/806R primers amplify them); remove organelles, eukaryotes, unassigned
+bad <- is.na(tax)|grepl("Chloroplast|Mitochondria|Eukaryota|Unassigned",tax)|!grepl("d__Bacteria|d__Archaea",tax)
 X <- X[!bad,]; tax <- tax[!bad]
 md$depth <- colSums(X)[md$SampleID]
 cat("Samples:",nrow(md)," ASVs kept:",nrow(X)," removed:",sum(bad),"\n")
