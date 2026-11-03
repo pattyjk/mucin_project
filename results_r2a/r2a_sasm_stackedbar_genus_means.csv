@@ -1,0 +1,49 @@
+"Group","Taxon","RA","n"
+"R2A","Pseudomonas",0.446379662208141,16
+"R2A","Crenobacter",0,16
+"R2A","Flavobacterium",0.113292077037138,16
+"R2A","Stenotrophomonas",0.0931017928000844,16
+"R2A","Aeromonas",0.0569159579641234,16
+"R2A","Shewanella",0,16
+"R2A","Comamonas",0.0352281916756082,16
+"R2A","Unclassified Sphingobacteriaceae",0.0681736938692553,16
+"R2A","Unclassified Comamonadaceae",0.00408903340390999,16
+"R2A","Unclassified Enterobacteriaceae",0.00185931472986434,16
+"R2A","Acinetobacter",0.00989968454743662,16
+"R2A","Delftia",0.031442834045936,16
+"R2A","Unclassified Acidobacteriales",0,16
+"R2A","Unclassified Alcaligenaceae",0.0200490982098271,16
+"R2A","Unclassified Dermabacteraceae",0,16
+"R2A","Other",0.119568659508675,16
+"SASM","Pseudomonas",0.0133489467019615,4
+"SASM","Crenobacter",0.0209972440249433,4
+"SASM","Flavobacterium",0.007219868058345,4
+"SASM","Stenotrophomonas",0.00192061459667093,4
+"SASM","Aeromonas",0.00402920503491492,4
+"SASM","Shewanella",0,4
+"SASM","Comamonas",0.00354550114022241,4
+"SASM","Unclassified Sphingobacteriaceae",0.00459181833676799,4
+"SASM","Unclassified Comamonadaceae",0.0464918029746094,4
+"SASM","Unclassified Enterobacteriaceae",0.0443863349709391,4
+"SASM","Acinetobacter",0.0326543260725069,4
+"SASM","Delftia",0,4
+"SASM","Unclassified Acidobacteriales",0.0148563185756418,4
+"SASM","Unclassified Alcaligenaceae",0.0152380812346427,4
+"SASM","Unclassified Dermabacteraceae",0.0349354695149088,4
+"SASM","Other",0.755784468762925,4
+"SASM + mucin","Pseudomonas",0.0359952795173005,4
+"SASM + mucin","Crenobacter",0.181358611148477,4
+"SASM + mucin","Flavobacterium",0.000286368843069874,4
+"SASM + mucin","Stenotrophomonas",0.000712250712250712,4
+"SASM + mucin","Aeromonas",0.0240877749404352,4
+"SASM + mucin","Shewanella",0.0776431446601126,4
+"SASM + mucin","Comamonas",0.036218936939391,4
+"SASM + mucin","Unclassified Sphingobacteriaceae",0.00102319236016371,4
+"SASM + mucin","Unclassified Comamonadaceae",0.0129098517603656,4
+"SASM + mucin","Unclassified Enterobacteriaceae",0.00612138790338111,4
+"SASM + mucin","Acinetobacter",0.00954574230401493,4
+"SASM + mucin","Delftia",0.0199449793672627,4
+"SASM + mucin","Unclassified Acidobacteriales",0.0287519045300636,4
+"SASM + mucin","Unclassified Alcaligenaceae",0.0012533832747535,4
+"SASM + mucin","Unclassified Dermabacteraceae",0,4
+"SASM + mucin","Other",0.564147191738958,4

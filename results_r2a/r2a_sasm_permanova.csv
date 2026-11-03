@@ -1,0 +1,13 @@
+"distance","comparison","R2","p","p_BH","betadisper_p"
+"Bray-Curtis (ASV)","overall (3 groups)",0.574154221653509,1e-04,NA,1e-04
+"Bray-Curtis (ASV)","R2A vs SASM",0.51757438559829,4e-04,0.00075,NA
+"Bray-Curtis (ASV)","R2A vs SASM + mucin",0.540780443246397,5e-04,0.00075,NA
+"Bray-Curtis (ASV)","SASM vs SASM + mucin",0.301675209377543,0.0272,0.0272,NA
+"Jaccard (ASV)","overall (3 groups)",0.476931250066156,1e-04,NA,3e-04
+"Jaccard (ASV)","R2A vs SASM",0.440524466232322,4e-04,6e-04,NA
+"Jaccard (ASV)","R2A vs SASM + mucin",0.403665500027123,2e-04,6e-04,NA
+"Jaccard (ASV)","SASM vs SASM + mucin",0.224378014350209,0.0297,0.0297,NA
+"Bray-Curtis (genus)","overall (3 groups)",0.651412059717111,1e-04,NA,1e-04
+"Bray-Curtis (genus)","R2A vs SASM",0.640266059713562,3e-04,9e-04,NA
+"Bray-Curtis (genus)","R2A vs SASM + mucin",0.58924007046946,6e-04,9e-04,NA
+"Bray-Curtis (genus)","SASM vs SASM + mucin",0.351228273239106,0.0299,0.0299,NA

@@ -1,0 +1,73 @@
+"distance","SampleID","Group","dist_to_centroid"
+"Bray-Curtis (ASV)","S2","R2A",0.103914495527021
+"Bray-Curtis (ASV)","S6","R2A",0.169767038347227
+"Bray-Curtis (ASV)","S7","R2A",0.164837323744482
+"Bray-Curtis (ASV)","S8","R2A",0.319310171280677
+"Bray-Curtis (ASV)","S10","R2A",0.136487804195201
+"Bray-Curtis (ASV)","S11","R2A",0.255410587959114
+"Bray-Curtis (ASV)","S12","R2A",0.370386038598789
+"Bray-Curtis (ASV)","S14","R2A",0.290763932182358
+"Bray-Curtis (ASV)","S20","R2A",0.226389139556618
+"Bray-Curtis (ASV)","S21","R2A",0.255492980357311
+"Bray-Curtis (ASV)","S23","R2A",0.257472645397753
+"Bray-Curtis (ASV)","S26","R2A",0.154313839639319
+"Bray-Curtis (ASV)","S27","R2A",0.255070176306573
+"Bray-Curtis (ASV)","S28","R2A",0.141016942472207
+"Bray-Curtis (ASV)","S31","R2A",0.321948844852544
+"Bray-Curtis (ASV)","S34","R2A",0.296503507216589
+"Bray-Curtis (ASV)","PABC9","SASM",0.576317339906576
+"Bray-Curtis (ASV)","PABA9","SASM",0.462524956638369
+"Bray-Curtis (ASV)","PABD9","SASM",0.439483722090272
+"Bray-Curtis (ASV)","PABB9","SASM",0.526620623157139
+"Bray-Curtis (ASV)","PABH9","SASM + mucin",0.580372543135091
+"Bray-Curtis (ASV)","PABE9","SASM + mucin",0.543451192718396
+"Bray-Curtis (ASV)","PABG9","SASM + mucin",0.374987614092401
+"Bray-Curtis (ASV)","PABF9","SASM + mucin",0.300567302576285
+"Jaccard (ASV)","S2","R2A",0.258058212558155
+"Jaccard (ASV)","S6","R2A",0.191212541881968
+"Jaccard (ASV)","S7","R2A",0.279241466223982
+"Jaccard (ASV)","S8","R2A",0.29954482336381
+"Jaccard (ASV)","S10","R2A",0.30271238107824
+"Jaccard (ASV)","S11","R2A",0.243043119139638
+"Jaccard (ASV)","S12","R2A",0.354591693718862
+"Jaccard (ASV)","S14","R2A",0.304589641639914
+"Jaccard (ASV)","S20","R2A",0.275261388292659
+"Jaccard (ASV)","S21","R2A",0.446126048857884
+"Jaccard (ASV)","S23","R2A",0.291201067883507
+"Jaccard (ASV)","S26","R2A",0.274689271342794
+"Jaccard (ASV)","S27","R2A",0.317942429018081
+"Jaccard (ASV)","S28","R2A",0.418275675858155
+"Jaccard (ASV)","S31","R2A",0.305549957824671
+"Jaccard (ASV)","S34","R2A",0.254832374172397
+"Jaccard (ASV)","PABC9","SASM",0.514652967429815
+"Jaccard (ASV)","PABA9","SASM",0.515450182940567
+"Jaccard (ASV)","PABD9","SASM",0.478083719659641
+"Jaccard (ASV)","PABB9","SASM",0.501466537374889
+"Jaccard (ASV)","PABH9","SASM + mucin",0.736071382566863
+"Jaccard (ASV)","PABE9","SASM + mucin",0.74078017291272
+"Jaccard (ASV)","PABG9","SASM + mucin",0.322457669161681
+"Jaccard (ASV)","PABF9","SASM + mucin",0.335673497695996
+"Bray-Curtis (genus)","S2","R2A",0.111908813778418
+"Bray-Curtis (genus)","S6","R2A",0.170810779672076
+"Bray-Curtis (genus)","S7","R2A",0.159724523321213
+"Bray-Curtis (genus)","S8","R2A",0.222697483859439
+"Bray-Curtis (genus)","S10","R2A",0.115464930061031
+"Bray-Curtis (genus)","S11","R2A",0.265564785237905
+"Bray-Curtis (genus)","S12","R2A",0.19904930566315
+"Bray-Curtis (genus)","S14","R2A",0.2602976767149
+"Bray-Curtis (genus)","S20","R2A",0.208330969053865
+"Bray-Curtis (genus)","S21","R2A",0.237658316228615
+"Bray-Curtis (genus)","S23","R2A",0.25308115925181
+"Bray-Curtis (genus)","S26","R2A",0.13698740994261
+"Bray-Curtis (genus)","S27","R2A",0.164674534850178
+"Bray-Curtis (genus)","S28","R2A",0.128973997489829
+"Bray-Curtis (genus)","S31","R2A",0.205612957656364
+"Bray-Curtis (genus)","S34","R2A",0.19694010116093
+"Bray-Curtis (genus)","PABC9","SASM",0.508622316373506
+"Bray-Curtis (genus)","PABA9","SASM",0.345596747668746
+"Bray-Curtis (genus)","PABD9","SASM",0.319221486433482
+"Bray-Curtis (genus)","PABB9","SASM",0.389617032229228
+"Bray-Curtis (genus)","PABH9","SASM + mucin",0.560869451374138
+"Bray-Curtis (genus)","PABE9","SASM + mucin",0.535569995551546
+"Bray-Curtis (genus)","PABG9","SASM + mucin",0.325062091930346
+"Bray-Curtis (genus)","PABF9","SASM + mucin",0.269312903039114

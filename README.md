@@ -1,4 +1,4 @@
-# Mucin effects on 20 °C synthetic-community 16S profiles
+# Mucin effects on 20 °C synthetic-community 16S profiles (with R2A comparison)
 
 ## Data and sample set
 - **Inputs:** `asv_table.txt` (480 samples), `synthcom_map.txt`, `taxonomy.tsv`.
@@ -67,6 +67,34 @@ Mean Bray–Curtis distance to centroid:
 - ***Chryseobacterium*, *Pseudomonas*, *Stenotrophomonas* change in opposite directions on the two plates:** lower with mucin on the antibiotic plate, higher with mucin on the carbon plate. The mucin effect on these genera depends on the base medium.
 - Script: `code/da_figure.R`. Plotted values: `results/differential_abundance_mucin_plotted.csv`.
 
+## Comparison with R2A (same swabs)
+- **Samples:** R2A wells without cortisol, n = 16 (S9 is listed in the map but missing from the ASV table). These are compared with the plate 4 no-antibiotic wells in Synthetic Amphibian Skin Media (SASM), without mucin (n = 4) and with mucin (n = 4).
+- **Merging the tables:** ASV IDs are sequence hashes, so the R2A and SASM tables merge directly. 30 ASVs are shared, and their taxonomy is identical in both tables. Both tables use the same filter (each ASV has at least 10 reads in total).
+- **Processing:** same as above (archaea kept, rarefied to 1,000 reads). Script: `code/r2a_vs_sasm.R`.
+
+![R2A vs SASM diversity and composition](results_r2a/r2a_sasm_diversity_composition.png)
+
+| | R2A | SASM | SASM + mucin |
+|---|---|---|---|
+| Observed ASVs (median) | 25 | 256 | 152 |
+| Shannon (median) | 2.21 | 4.93 | 4.03 |
+| Bray-Curtis distance to centroid (mean) | 0.23 | 0.50 | 0.45 |
+
+- **Diversity:** R2A is much less diverse than either SASM group (Kruskal-Wallis p = 0.0003; pairwise BH-adjusted p = 0.0041). SASM vs. SASM + mucin gives p = 0.03, the smallest value possible with 4 vs. 4 wells.
+- **Composition (Bray-Curtis):** medium explains R² = 0.52 (R2A vs. SASM) and 0.54 (R2A vs. SASM + mucin). Mucin within SASM explains R² = 0.30. Jaccard and genus-level Bray-Curtis give the same ranking.
+- **Dispersion:** R2A replicates are much tighter than SASM replicates (betadisper p = 0.0001), so part of the PERMANOVA R² reflects this difference in spread. The PCoA still separates the media completely.
+- **Overlap:** 74% of R2A reads are in ASVs also found in SASM, but only 6% of SASM reads are in ASVs found in R2A. R2A recovers a subset of the community that grows in SASM.
+
+![Top 15 genera, R2A vs SASM](results_r2a/r2a_sasm_stackedbar_genus.png)
+
+- **Stacked bars:** the top 15 genera are ranked by the mean of the three group means, so each medium is weighted equally.
+  - **R2A:** *Pseudomonas* (45%), *Flavobacterium* (11%), *Stenotrophomonas* (9%) and *Aeromonas* (6%).
+  - **SASM + mucin:** *Crenobacter* (18%) and *Shewanella* (8%), neither of which is detected in R2A.
+  - **SASM without mucin:** very even, with 76% of reads in "Other".
+- **Caveats:**
+  1. The R2A samples reuse the plate 4 barcodes, so they were sequenced on a separate run. Medium and sequencing run cannot be separated.
+  2. The frequency filter was applied across 480 samples for SASM but only 34 for R2A, which slightly favours keeping rare ASVs in SASM. This cannot explain a 10-fold difference in richness.
+
 ## Caveats
 1. **Small groups:** with n = 4 vs. 4, single-treatment tests cannot reach p below about 0.029. Use them as descriptive.
 2. **ANCOM-BC2 on the antibiotic plate depends on one sample.** With PABD4 excluded (the pipeline rule) 32 genera are significant; with it included, 61. 25 genera are significant both ways, always in the same direction; treat only these as robust. See `ancombc2_antibiotic_PABD4_sensitivity.csv`.
@@ -78,4 +106,5 @@ Mean Bray–Curtis distance to centroid:
 1. Run `Rscript code/analysis_20C_mucin.R asv_table.txt synthcom_map.txt taxonomy.tsv results`. This uses R 4.4.3 with vegan, tidyverse, phyloseq, ANCOMBC, ggh4x and patchwork; versions are listed in `results/sessionInfo_R.txt`.
 2. Run `python code/figures_alpha_pcoa_dispersion.py results`. This needs numpy, pandas and matplotlib.
 3. Run `Rscript code/da_figure.R results taxonomy.tsv` to draw the differential-abundance figure.
-4. Optionally, run `python code/od600_map_check.py <OD screenshot.png> mucin_media_map.txt`. This transcribes the OD sheet by OCR (tesseract) and includes manual fixes for 8 misread well IDs.
+4. Run `Rscript code/r2a_vs_sasm.R asv_table_synth_com.txt cort_synth_com_map.txt taxonomy_r2a.tsv results/asv_table_20C_carbon_antibiotic.txt results/map_20C_carbon_antibiotic.txt taxonomy.tsv results_r2a` for the R2A comparison. The R2A taxonomy is the `taxonomy.tsv` supplied with the R2A table.
+5. Optionally, run `python code/od600_map_check.py <OD screenshot.png> mucin_media_map.txt`. This transcribes the OD sheet by OCR (tesseract) and includes manual fixes for 8 misread well IDs.
