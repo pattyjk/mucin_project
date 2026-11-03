@@ -2,14 +2,12 @@
 
 ## Data and sample set
 - **Inputs:** `asv_table.txt` (480 samples), `synthcom_map.txt`, `taxonomy.tsv`.
-- **Samples analysed:** 20 °C wells on two plates, 168 samples in total. Blank wells and the Diversity plate (plate 5) were excluded.
+- **Samples analysed:** 20°C wells on two plates, 168 samples in total. Blank wells and the Diversity plate (plate 5) were excluded.
   - Plate 4, Antibiotics in Synthetic Amphibian Skin Media: 9 treatments (no antibiotic + 8 antibiotics) × mucin ±, n = 4 each (72 wells).
   - Plate 2, CarbonTemp: 11 single carbon sources × mucin ±, n = 4 each, plus 8 wells with mucin as the only carbon source (96 wells).
-- **Filtering:** 46 chloroplast, mitochondrial, eukaryote and unassigned ASVs were removed, leaving 2,169 ASVs. **Archaea are kept**, because the current 515F/806R primers amplify them. That adds 19 archaeal ASVs (638 reads, 0.07% of reads, found in 29 of 168 wells, at most 3.5% of any well). None pass the 10% prevalence filter for genus-level ANCOM-BC2. No further contaminant filtering was done, because decontamination was done upstream.
-- **Change from the previous version:** archaea are now kept. All conclusions are unchanged. R² values moved by ≤ 0.003, and the carbon-plate ANCOM-BC2 genus list is identical. On the antibiotic plate, 32 genera are significant (previously 31) and 25 are robust to PABD4 (previously 24; domain-level 'Bacteria' was added). Part of these small shifts comes from a new random rarefaction draw, because the count matrix changed.
+- **Filtering:** 46 chloroplast, mitochondrial, eukaryote, and unassigned ASVs were removed, leaving 2,169 ASVs. **19 archaeal ASVs (638 reads, 0.07% of reads, found in 29 of 168 wells, at most 3.5% of any well)**. None pass the 10% prevalence filter for genus-level ANCOM-BC2. 
 - **Rarefaction:** samples were rarefied to 1,000 reads for diversity and dissimilarity analyses. P20H12 (182 reads) and PABD4 (827 reads) were dropped, leaving 166 samples (71 antibiotic, 95 carbon).
 - **Mucin-only wells:** the 8 wells with mucin as the only carbon source have no no-mucin pair. They are plotted but excluded from the mucin × treatment models.
-- **OD600 check:** the OD600 sheet for plate 4 (4 timepoints × 96 wells) matches `mucin_media_map.txt` well for well, with 0 mismatches. Blank wells stayed at OD ≈ 0.07 at every timepoint.
 
 ## Main results
 ![Alpha diversity and Bray–Curtis PCoA](results/mucin_20C_summary.png)
@@ -22,7 +20,7 @@
 - **Composition (PERMANOVA, Bray–Curtis):** mucin R² = 0.055, antibiotic R² = 0.138, interaction R² = 0.150 (all p ≤ 0.0047). Jaccard gives the same picture.
 
 ### Single carbon sources
-- **Diversity:** mucin raises the Shannon index strongly (F = 125, p = < 0.0001). Richness rises only slightly (F = 11.2, p = 0.0014). Mucin mainly makes abundances more even rather than adding taxa.
+- **Diversity:** mucin raises the Shannon index strongly (F = 125, p = < 0.0001). Richness rises only slightly (F = 11.2, p = 0.0014), but still significantly. Mucin mainly **makes abundances more even** rather than adding taxa.
 - **Composition (PERMANOVA, Bray–Curtis):** carbon source R² = 0.435, mucin R² = 0.094, interaction R² = 0.221 (all p = 0.0001).
   - Mucin shifts composition within 9 of 11 carbon sources (BH-adjusted p < 0.05).
 - **Genus-level differential abundance (ANCOM-BC2, adjusted for carbon source):** 12 of 115 genera differ and pass the sensitivity check.
@@ -67,6 +65,7 @@ Mean Bray–Curtis distance to centroid:
 - ***Chryseobacterium*, *Pseudomonas*, *Stenotrophomonas* change in opposite directions on the two plates:** lower with mucin on the antibiotic plate, higher with mucin on the carbon plate. The mucin effect on these genera depends on the base medium.
 - Script: `code/da_figure.R`. Plotted values: `results/differential_abundance_mucin_plotted.csv`.
 
+<<<<<<< HEAD
 ## Comparison with R2A (same swabs)
 - **Samples:** R2A wells without cortisol, n = 16 (S9 is listed in the map but missing from the ASV table). These are compared with the plate 4 no-antibiotic wells in Synthetic Amphibian Skin Media (SASM), without mucin (n = 4) and with mucin (n = 4).
 - **Merging the tables:** ASV IDs are sequence hashes, so the R2A and SASM tables merge directly. 30 ASVs are shared, and their taxonomy is identical in both tables. Both tables use the same filter (each ASV has at least 10 reads in total).
@@ -102,6 +101,8 @@ Mean Bray–Curtis distance to centroid:
 4. **Richness and read depth:** richness correlates negatively with read depth. Mucin wells have fewer reads. The OD data show mucin wells grow to higher density, so low read depth does not mean low biomass.
 5. **Permutation p-values:** PERMANOVA and betadisper use 9,999 permutations, so rerunning the scripts can change p-values in the third decimal place.
 
+=======
+>>>>>>> 8dff027b030a0a7ca999525cffc548336171d41e
 ## Reproducing
 1. Run `Rscript code/analysis_20C_mucin.R asv_table.txt synthcom_map.txt taxonomy.tsv results`. This uses R 4.4.3 with vegan, tidyverse, phyloseq, ANCOMBC, ggh4x and patchwork; versions are listed in `results/sessionInfo_R.txt`.
 2. Run `python code/figures_alpha_pcoa_dispersion.py results`. This needs numpy, pandas and matplotlib.
